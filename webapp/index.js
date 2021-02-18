@@ -8,6 +8,7 @@ sap.ui.define([
 		settings : {
 			id : "walkthrough"
 		},
+		 //this is step 7
 		async: true
 	}).placeAt("content");
 });
