@@ -1,0 +1,32 @@
+{
+    "Customers": [
+      {
+        "CustomerId": 1,
+        "FirstName": "othmane",
+        "LastName": "ait",
+        "Address": "Rabat",
+        "Age": 22,
+        "username" : "othmane",
+        "password" :"othmane1"
+      },
+      {
+        "CustomerId": 2,
+        "FirstName": "ayoub",
+        "LastName": "el",
+        "Address": "Casablanca",
+        "Age": 23,
+        "username" : "ayoub",
+        "password" :"ayoub1"
+      },
+      {
+        "CustomerId": 3,
+        "FirstName": "safae",
+        "LastName": "mi",
+        "Address": "Fes",
+        "Age": 24,
+        "username" : "safae",
+        "password" :"safae1"
+      }
+      
+    ]
+  }

@@ -1,0 +1,22 @@
+{
+    "Orders": [
+      {
+        "OrderId": 1,
+        "CustomerId": 1,
+        "Quantity": 500,
+        "Price": 10000
+      },
+      {
+        "OrderId": 2,
+        "CustomerId": 1,
+        "Quantity": 800,
+        "Price": 18000
+      },
+      {
+        "OrderId": 3,
+        "CustomerId": 2,
+        "Quantity": 700,
+        "Price": 15000
+      }
+    ]
+  }
