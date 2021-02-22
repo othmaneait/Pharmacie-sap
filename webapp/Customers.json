@@ -26,6 +26,24 @@
         "Age": 24,
         "username" : "safae",
         "password" :"safae1"
+      },
+      {
+        "CustomerId": 4,
+        "FirstName": "soufiane",
+        "LastName": "el ",
+        "Address": "Fes",
+        "Age": 24,
+        "username" : "soufiane",
+        "password" :"soufiane1"
+      },
+      {
+        "CustomerId": 5,
+        "FirstName": "zouhair",
+        "LastName": "mi ",
+        "Address": "Casablanca",
+        "Age": 28,
+        "username" : "zouhair",
+        "password" :"zouhair1"
       }
       
     ]

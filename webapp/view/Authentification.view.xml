@@ -1,0 +1,28 @@
+<mvc:View
+	controllerName=""
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	displayBlock="true"
+	height="100%"
+	busyIndicatorDelay="0"
+>
+<Panel            id="authentication" class="sapUiResponsiveMargin" headerText="Authentification"
+>
+		
+
+		<content>
+			<Input
+            value="{/recipient/username}"
+            valueLiveUpdate="true"
+            width="60%"/>
+			<Input
+            value="{/recipient/password}"
+            valueLiveUpdate="true"
+            width="60%"/>
+			<Button
+					icon="sap-icon://log"
+					press=".onopen"/>
+
+		</content>
+	</Panel>
+</mvc:View>

@@ -14,13 +14,17 @@ sap.ui.define([
          // set data model
          var oData = {
             recipient : {
-               name : "World"
+               name : "World",
+               username :"",
+               password : ""
             }
          };
          var oModel = new JSONModel(oData);
          this.setModel(oModel);
          // set dialog
 			this._helloDialog = new HelloDialog(this.getRootControl());
+         this.getRouter().initialize();
+
 		},
 
 
