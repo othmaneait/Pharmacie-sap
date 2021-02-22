@@ -1,21 +1,18 @@
-<mvc:View
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc"
-		controllerName="sap.ui.demo.walkthrough.controller.Customer">
-	<Page
-		title="Customer Profil">
-		<ObjectHeader
-			intro="{customer>FirstName}"
-			title="{customer>LastName}"
-			
-				/>
-				<content>
-				<Text text="	{customer>Address}">
-
-				</Text>
-				<Text text="	{customer>Age}">
-
-				</Text>
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="sap.ui.demo.walkthrough.controller.Customer"><Page title="Customer Profil">
+				<content><ObjectHeader intro="{customer>FirstName}" title="{customer>LastName}"/>
+				<Label text="Age" width="100%" id="label0"/>
+				<MessageStrip xmlns="sap.m" text=" {customer>Age}" showIcon="false" showCloseButton="true" id="strip0">
+				    </MessageStrip>
+				<Label text="Address" width="100%" id="label1"/>
+				<MessageStrip xmlns="sap.m" text=" {customer>Address}" showIcon="false" showCloseButton="true" id="strip1">
+				    </MessageStrip>
+				<Label text="Username" width="100%" id="label2"/>
+				<MessageStrip xmlns="sap.m" text=" {customer>username}" showIcon="false" showCloseButton="true" id="strip2">
+				    </MessageStrip>
+				<Label text="Password" width="100%" id="label0_1613987438312"/>
+				<MessageStrip xmlns="sap.m" text=" {customer>password}" showIcon="false" showCloseButton="true" id="strip3">
+				    </MessageStrip>
+				<Button xmlns="sap.m" text="Button" id="button2"/>
 
 				</content>
 				
