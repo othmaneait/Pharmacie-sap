@@ -7,11 +7,7 @@
 			headerText="{i18n>custumorsList}"
 		class="sapUiResponsiveMargin"
 		width="auto"
-       items="{
-         path : '/users?page=2'
-        
-      }">
-         <headerToolbar>
+      items="{customer>/Customers}" >         <headerToolbar>
 		 <Toolbar>
             <Title text="{i18n>custumorsList}"/>
             <ToolbarSpacer/>
@@ -21,8 +17,7 @@
       </headerToolbar>
 		<items>
 			<ObjectListItem
-				title="{email}  {email}"
-				number = "{email}"
+				title="{customer>FirstName}  "
 				type="Navigation"
 				press=".onPress"
 				> 

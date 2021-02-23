@@ -12,7 +12,7 @@
 				<Label text="Password" width="100%" id="label0_1613987438312"/>
 				<MessageStrip xmlns="sap.m" text=" {customer>password}" showIcon="false"  id="strip3">
 				    </MessageStrip>
-				<Button xmlns="sap.m" text="Commandes" id="button2"/>
+				<Button xmlns="sap.m" text="Orders" id="button2"/>
 
 				</content>
 				
