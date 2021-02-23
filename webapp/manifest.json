@@ -10,11 +10,10 @@
 	  "version": "1.0.0"
 	},
 	"dataSources": {
-		"default": {
+		"mainService": {
 			"uri": "https://reqres.in/api/",
-			"type": "OData",
+			"type": "JSON",
 			"settings": {
-				"odataVersion": "4.0"
 			}
 		}
 	}
@@ -48,7 +47,10 @@
 		  "supportedLocales": [""],
 		  "fallbackLocale": ""
 		}
-	  }, 
+	  },  	"": {
+		"dataSource": "mainService",
+		"preload": true
+	},
 	  "invoice": {
 		"type": "sap.ui.model.json.JSONModel",
 		"uri": "Invoices.json"

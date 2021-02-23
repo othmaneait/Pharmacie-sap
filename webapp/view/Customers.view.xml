@@ -8,7 +8,7 @@
 		class="sapUiResponsiveMargin"
 		width="auto"
        items="{
-         path : 'users?page=2'
+         path : '/users?page=2'
         
       }">
          <headerToolbar>
