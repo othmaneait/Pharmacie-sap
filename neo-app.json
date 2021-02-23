@@ -1,0 +1,11 @@
+{
+	{
+  "path": "/RestApi",
+  "target": {
+    "type": "destination",
+    "name": "RestApi"
+  },
+  "description": "rest api for clients test"
+}
+	
+}
