@@ -8,7 +8,7 @@
 		class="sapUiResponsiveMargin"
 		width="auto"
        items="{
-         path : 'customer>/Customers'
+         path : 'users?page=2'
         
       }">
          <headerToolbar>
@@ -21,8 +21,8 @@
       </headerToolbar>
 		<items>
 			<ObjectListItem
-				title="{customer>FirstName}  {customer>LastName}"
-				number = "{customer>CustomerId}"
+				title="{email}  {email}"
+				number = "{email}"
 				type="Navigation"
 				press=".onPress"
 				> 

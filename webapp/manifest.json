@@ -9,12 +9,15 @@
 	"applicationVersion": {
 	  "version": "1.0.0"
 	},
-	 "dataSources": {
-		"invoice": {
-			"type": "sap.ui.model.json.JSONModel",
-			"uri": "Invoices.json"
-		  }
-	  }
+	"dataSources": {
+		"default": {
+			"uri": "https://reqres.in/api/",
+			"type": "OData",
+			"settings": {
+				"odataVersion": "4.0"
+			}
+		}
+	}
   },
   "sap.ui": {
 	"technology": "UI5",

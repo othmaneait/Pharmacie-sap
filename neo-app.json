@@ -1,4 +1,4 @@
-{
+
 	{
   "path": "/RestApi",
   "target": {
@@ -8,4 +8,3 @@
   "description": "rest api for clients test"
 }
 	
-}
