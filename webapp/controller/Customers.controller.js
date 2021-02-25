@@ -9,7 +9,7 @@ sap.ui.define([
 	return Controller.extend("sap.ui.demo.walkthrough.controller.Customers", {
 		onInit : function () {
 			var oViewModel = new JSONModel({
-				
+
 			});
 			this.getView().setModel(oViewModel, "view");
 		},
@@ -27,7 +27,7 @@ sap.ui.define([
 			var oBinding = oList.getBinding("items");
 			oBinding.filter(aFilter);
 		},
-		
+
 		onPress: function (oEvent) {
 			var oItem = oEvent.getSource();
 			var oRouter = this.getOwnerComponent().getRouter();
@@ -35,6 +35,6 @@ sap.ui.define([
 				customerPath: window.encodeURIComponent(oItem.getBindingContext("customer").getPath().substr(1))
 			});
 		}
-		
+
 	});
 });

@@ -7,22 +7,27 @@
 			headerText="{i18n>custumorsList}"
 		class="sapUiResponsiveMargin"
 		width="auto"
-      items="{customer>/Customers}" >         <headerToolbar>
+       items="{
+         path : 'customer>/Customers'
+        
+      }">
+         <headerToolbar>
 		 <Toolbar>
             <Title text="{i18n>custumorsList}"/>
             <ToolbarSpacer/>
             <SearchField width="50%" search=".onFilterCustomers"/>
          </Toolbar>
-         
+
       </headerToolbar>
 		<items>
 			<ObjectListItem
-				title="{customer>FirstName}  "
+				title="{customer>FirstName}  {customer>LastName}"
+				number = "{customer>CustomerId}"
 				type="Navigation"
 				press=".onPress"
 				> 
-				
+
 			</ObjectListItem>
 		</items>
 	</List>
-</mvc:View> 
+</mvc:View>
