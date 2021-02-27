@@ -7,7 +7,7 @@
 		</headerContent>
 
 		<content>
-			<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.Customers"/>
+			<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.InvoiceList"/>
 
 		</content>
 	</Page>
